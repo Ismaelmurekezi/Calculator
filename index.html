@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="screen">
+          <span id="span"></span>
+        </div>
+        <div class="buttons-holder">
+          <div class="one">
+            <button class="buttons" id="clear">AC</button>
+            <button class="buttons" id="delete">DEL</button>
+            <button class="buttons btn" id="dot">.</button>
+            <button class="buttons operator" id="divide">/</button>
+          </div>
+          <div class="two">
+            <button class="buttons btn" data-value="7">7</button>
+            <button class="buttons btn" data-value="8">8</button>
+            <button class="buttons btn" data-value="9">9</button>
+            <button class="buttons operator" id="plus">+</button>
+          </div>
+          <div class="three">
+            <button class="buttons btn">4</button>
+            <button class="buttons btn">5</button>
+            <button class="buttons btn">6</button>
+            <button class="buttons operator" id="minus">-</button>
+          </div>
+          <div class="four">
+            <button class="buttons btn">1</button>
+            <button class="buttons btn">2</button>
+            <button class="buttons btn">3</button>
+            <button class="buttons operator">*</button>
+          </div>
+          <div class="four">
+            <button class="buttons btn">0</button>
+            <button class="buttons btn">00</button>
+            <button class="buttons" id="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
